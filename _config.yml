@@ -68,7 +68,8 @@ destination: ./_site
 incremental: false
 regenerate: true
 
-google_analytics: GTM-W4PXHWZB
+tracker:
+  google_analytics: "GTM-W4PXHWZB"
 
 plugins:
   - jekyll-feed
