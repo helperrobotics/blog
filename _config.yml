@@ -4,7 +4,7 @@ longtitle: Helper Robotics Tech Blog
 author: Seungwon
 email: sighingnow@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  Helper Robotics Tech Blog
 
 version: 1.0
 gitbook_version: 3.2.3
@@ -22,7 +22,7 @@ toc:
   h_max: 3
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
-favicon_path: /assets/gitbook/images/favicon.ico
+favicon_path: /assets/favicon.ico
 
 # markdown render engine.
 markdown: kramdown
