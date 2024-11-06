@@ -1,5 +1,5 @@
 ---
-title: [Next 14] Router Cache 무효화
+title: Next 14 Router Cache 무효화
 author: Seungwon
 date: 2024-11-06
 category: front, next
