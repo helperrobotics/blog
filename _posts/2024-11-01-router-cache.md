@@ -48,10 +48,14 @@ Next.js has an in-memory client-side router cache that stores the RSC payload of
 
 ```javascript
 const logout = async () => {
-  const { status } = await axios.get("/logout");
+  const { status } = await axios.get("/logout"); // 이 과정에서 쿠키에 토큰이 지워짐.
   if (status === 200) {
-    router.refresh();
-    router.push("/login");
+    router.refresh(); // 라우터 캐시 초기화
+    router.push("/login"); // push를 통해서 이전 페이지가 라우터 캐시가 초기화된 페이지로 만듦
   }
 };
 ```
+
+## 끝
+
+-끝-
