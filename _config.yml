@@ -69,7 +69,7 @@ incremental: false
 regenerate: true
 
 tracker:
-  google_analytics: "GTM-W4PXHWZB"
+  google_analytics: "G-TC0JR3MXDX"
 
 plugins:
   - jekyll-feed
