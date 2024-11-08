@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Helper Robotics Tech Blog",
+  "short_name": "Helper Robotics",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
