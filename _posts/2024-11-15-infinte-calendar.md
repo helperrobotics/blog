@@ -1,8 +1,10 @@
 ---
-title: [React] Infinite Calendar을 만들어보자 - 1
+title: React Infinite Calendar을 만들어보자 - 1
 author: Seungwon
 date: 2024-11-15
-category: front, next, calendar
+category: -front
+  -next
+  -calendar
 layout: post
 ---
 
@@ -66,8 +68,9 @@ const items = virtualizer.getVirtualItems(); // virtual items
 
 화면은 TailwindCSS를 같이 사용했습니다.
 
-```html
+{% raw %}
 
+```html
 <div
   className="scrollbar-hide flex h-52 w-full overflow-y-scroll"
   ref={scrollRef}
@@ -102,6 +105,8 @@ const items = virtualizer.getVirtualItems(); // virtual items
   </div>
 </div>
 ```
+
+{% endraw %}
 
 여기서는 스크롤 박스의 높이와 너비를 설정해주고, virtual items에 대해서 index로 '달'을 정하고 있다 까지만 봐주시면 됩니다. 주의하실 점으로, gap이나 margin, padding을 설정하셨다면 이를 고려해서 estimateSize 값을 설정하셔야 합니다. (참고로 날짜 라이브러리는 dayjs를 사용했습니다.)
 
